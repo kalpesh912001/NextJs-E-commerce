@@ -1,0 +1,31 @@
+.container {
+    @apply w-full h-20 px-[6.25rem] py-5 bg-[#FFFFFF] sticky top-0 flex items-center justify-between;
+}
+
+.menuItems {
+    @apply flex items-center justify-between gap-10;
+}
+
+.menuLink {
+    @apply text-[#1E293B] text-sm font-medium cursor-pointer;
+}
+
+.menuLink:hover {
+    @apply text-[#14B8A6];
+}
+
+.activeMenuLink {
+    @apply text-[#14B8A6] text-sm font-medium cursor-pointer;
+}
+
+.topbarFeatureBox {
+    @apply bg-[#F1F5F9] w-[2.375rem] h-[2.375rem] rounded relative flex items-center justify-center cursor-pointer;
+}
+
+.activeTopbarFeature {
+    @apply bg-[#14B8A6] w-[2.375rem] h-[2.375rem] rounded relative cursor-pointer;
+}
+
+.cartBadge {
+    @apply w-[1.125rem] h-[1.125rem] rounded-full bg-[#EF4444] flex items-center justify-center absolute -top-2 -right-2 text-[#FFFFFF] text-[0.625rem] font-medium;
+}
