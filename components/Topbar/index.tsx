@@ -5,7 +5,7 @@ import { logo_green } from '../../public/assets/images';
 import { useGetTopbarData } from './hooks/useGetTopbarData';
 import { useRouter } from 'next/router';
 import { TopbarManuLinks } from '../../types';
-import { topBarFeturesKeys } from '@/constants';
+import { topBarFeturesKeys } from '../../constants';
 
 export const Topbar = () => {
     const router = useRouter();

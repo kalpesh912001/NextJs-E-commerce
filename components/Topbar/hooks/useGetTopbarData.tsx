@@ -1,9 +1,10 @@
 import { ROUTER_PATHS } from "@/constants/enums";
-import { search, shopping_cart, shopping_cart_white, user_circle } from "@/public/assets/icons";
+import { arrow_head_down, search, shopping_cart, shopping_cart_white, user_circle } from "@/public/assets/icons";
 import { TopbarManuLinks } from "../../../types";
 import { useRouter } from "next/router";
 import { topBarFeturesKeys } from "@/constants";
 import { useState } from "react";
+import Image from "next/image";
 
 export const useGetTopbarData = () => {
     const router = useRouter();
@@ -15,7 +16,9 @@ export const useGetTopbarData = () => {
             path: ROUTER_PATHS.home
         },
         {
-            component: 'Categories',
+            component: <span className="flex items-center gap-2">Categories
+                <Image src={arrow_head_down} alt="categories" width={10} />
+            </span>,
         },
         {
             component: 'Explore'
