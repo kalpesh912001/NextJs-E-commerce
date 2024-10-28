@@ -1,0 +1,27 @@
+.container {
+    @apply grid grid-cols-2 bg-[#F8FAFC] h-fit;
+}
+
+.landingTextContainer {
+    @apply flex items-center justify-start px-[6.25rem];
+}
+
+.landingTextSection {
+    @apply flex flex-col gap-4;
+}
+
+.header {
+    @apply text-[#1E293B] text-[4rem] font-bold;
+}
+
+.subText {
+    @apply text-[#64748B] text-base font-normal;
+}
+
+.btnSection {
+    @apply flex items-center justify-start gap-6;
+}
+
+.sliderSection {
+    @apply h-fit
+}

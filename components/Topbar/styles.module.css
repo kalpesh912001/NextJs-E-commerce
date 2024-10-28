@@ -1,5 +1,5 @@
 .container {
-    @apply w-full h-20 px-[6.25rem] py-5 bg-[#FFFFFF] sticky top-0 flex items-center justify-between;
+    @apply w-full h-20 px-[6.25rem] py-5 bg-[#FFFFFF] sticky top-0 flex items-center justify-between z-[99];
 }
 
 .menuItems {

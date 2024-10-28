@@ -10,3 +10,6 @@ export * as twitter from './Twitter.svg';
 export * as instagram from './Instagram.svg';
 export * as apple from './apple.svg';
 export * as playStore from './playStore.svg';
+export * as arrow_left from './arrow-left.svg';
+export * as arrow_right from './arrow-right.svg';
+
