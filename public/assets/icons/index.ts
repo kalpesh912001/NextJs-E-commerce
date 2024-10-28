@@ -14,4 +14,8 @@ export * as arrow_left from './arrow-left.svg';
 export * as arrow_right from './arrow-right.svg';
 export * as rating_star from './rating-star.svg';
 export * as heart_shape from './heart-shape.svg';
+export * as truck from './truck.svg';
+export * as indian_rupee from './indian-rupee.svg';
+export * as headphones from './headphones.svg';
+export * as credit_card from './credit-card.svg';
 

@@ -1,0 +1,23 @@
+.container {
+    @apply w-full px-[6.25rem] py-[3.75rem] flex items-center;
+}
+
+.facilityCard {
+    @apply bg-white p-3 flex items-center gap-3 flex-1;
+}
+
+.borderRight {
+    @apply border-r border-[#E2E8F0];
+}
+
+.infoDiv {
+    @apply flex flex-col gap-2;
+}
+
+.header {
+    @apply text-[#1E293B] text-xl font-bold;
+}
+
+.description {
+    @apply text-[#64748B] text-sm font-normal;
+}
