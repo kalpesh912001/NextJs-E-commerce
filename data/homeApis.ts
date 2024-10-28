@@ -1,14 +1,14 @@
 import httpClient from "../utils/httpClient";
 
 
-export const fetchFeatureProducts = async () => {
+export const fetchAllProducts = async (limit: number) => {
     try {
         const response = await httpClient({
             method: "GET",
-            url: `https://fakestoreapi.com/products?limit=4`,
+            url: `https://fakestoreapi.com/products?limit=${limit}`,
         });
 
-        return response.data;
+        return response;
     } catch (error: any) {
         throw error;
     }

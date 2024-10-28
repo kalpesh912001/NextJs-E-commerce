@@ -12,4 +12,6 @@ export * as apple from './apple.svg';
 export * as playStore from './playStore.svg';
 export * as arrow_left from './arrow-left.svg';
 export * as arrow_right from './arrow-right.svg';
+export * as rating_star from './rating-star.svg';
+export * as heart_shape from './heart-shape.svg';
 

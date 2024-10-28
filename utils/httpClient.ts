@@ -18,7 +18,6 @@ const httpClient = async ({
             responseType,
             params,
         });
-        debugger
         return response;
     } catch (error: any) {
         if (!window.navigator.onLine) {

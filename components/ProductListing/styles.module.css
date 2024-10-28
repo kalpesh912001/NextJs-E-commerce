@@ -1,0 +1,15 @@
+.container {
+    @apply w-full h-fit px-[6.25rem] py-[6.25rem] flex flex-col gap-[3.75rem] bg-[#F8FAFC];
+}
+
+.headerSection {
+    @apply w-full flex items-center justify-between;
+}
+
+.header {
+    @apply text-[#1E293B] text-[2.5rem] font-semibold;
+}
+
+.productList {
+    @apply grid grid-cols-4 gap-x-5 gap-y-[3.75rem] items-stretch;
+}

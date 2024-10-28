@@ -1,4 +1,4 @@
-import { fetchFeatureProducts } from "@/data/homeApis";
+import { fetchAllProducts } from "@/data/homeApis";
 import { useEffect, useState } from "react"
 
 
@@ -7,11 +7,10 @@ export const useGetFeatureProductsData = () => {
 
     const getFeatureProducts = async () => {
         try {
-            const response = await fetchFeatureProducts();
+            const response = await fetchAllProducts(4);
             if (response.status === 200) {
                 console.log(response?.data);
-
-                // setFeatureProducts()
+                setFeatureProducts(response?.data);
             }
         } catch (error: any) {
             console.log(error);
@@ -21,6 +20,7 @@ export const useGetFeatureProductsData = () => {
     useEffect(() => {
         getFeatureProducts();
     }, []);
+
     return {
         featureProducts
     }
