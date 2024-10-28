@@ -1,0 +1,55 @@
+.container {
+    @apply bg-[#1E293B] px-[6.25rem] pt-[6.25rem] flex flex-col gap-6;
+}
+
+.socialNetworkSection {
+    @apply flex items-center gap-6;
+}
+
+.footerColumnsContainer {
+    @apply flex items-start justify-between;
+}
+
+.footerSections {
+    @apply flex flex-col gap-5 items-start;
+}
+
+.linksHeader {
+    @apply text-[#14B8A6] text-base font-semibold;
+}
+
+.linksSection {
+    @apply flex flex-col gap-3;
+}
+
+.links {
+    @apply text-[#FFFFFF] text-sm font-normal cursor-pointer;
+}
+
+.getAppSection {
+    @apply flex flex-col justify-start gap-4;
+}
+
+.getAppBtn {
+    @apply bg-[#94A3B8] rounded-[0.313rem] min-w-[10.563rem] min-h-[2.813rem] flex items-center justify-center gap-1 cursor-pointer;
+}
+
+.getAppBtnText {
+    @apply flex flex-col;
+}
+
+.getAppDownload {
+    @apply text-[#1E293B] text-xs leading-none;
+}
+
+.getAppBtnHeader {
+    @apply text-[#1E293B] text-lg leading-none;
+}
+
+.copyRightsSection {
+    @apply w-full h-[3.875rem] flex items-center justify-center;
+}
+
+.copyRightsText {
+    @apply w-full text-center text-[#94A3B8] text-sm font-normal
+}

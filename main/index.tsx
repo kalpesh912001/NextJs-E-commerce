@@ -1,6 +1,6 @@
 import { Footer, Topbar } from '../components';
 import React, { ReactNode } from 'react';
-
+import styles from './styles.module.css';
 interface Props {
     children: ReactNode;
 }
@@ -12,7 +12,7 @@ const Main = (props: Props) => {
     return (
         <div>
             <Topbar />
-            <main>
+            <main className={styles.childrenWrapper}>
                 {children}
             </main>
             <Footer />
