@@ -12,7 +12,7 @@ const Home: NextPage = () => {
 }
 export default Home;
 
-export const getServerSideProps = () => {
+export const getStaticProps = () => {
   return {
     redirect: {
       permanent: false,

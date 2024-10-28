@@ -1,0 +1,23 @@
+.container {
+    @apply w-full h-fit bg-[#FFFFFF] px-[6.25rem] py-[5rem] flex flex-col gap-8;
+}
+
+.header {
+    @apply text-[#1E293B] text-[2.5rem] font-semibold;
+}
+
+.categoryList {
+    @apply flex items-center gap-x-5 gap-y-9 flex-wrap;
+}
+
+.categoryDiv {
+    @apply flex-1 h-[9rem] flex flex-col items-center justify-between;
+}
+
+.categoryLogoSection {
+    @apply w-[6.25rem] h-[6.25rem] rounded-full bg-[#F1F5F9] flex items-center justify-center;
+}
+
+.categoryName {
+    @apply text-[#1E293B] text-base font-bold;
+}

@@ -7,3 +7,8 @@ export interface TopbarManuLinks {
     activeIcon?: any;
     key?: string;
 }
+
+export interface StatsDataTypes {
+    title: string;
+    data: string;
+}

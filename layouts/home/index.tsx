@@ -1,10 +1,12 @@
 import React from 'react'
-import { LandingBanner } from './components';
+import { Categories, LandingBanner, SellingStats } from './components';
 
 const Home = () => {
     return (
         <div>
             <LandingBanner />
+            <SellingStats />
+            <Categories />
         </div>
     )
 }
