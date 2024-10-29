@@ -13,7 +13,7 @@ export const Facilities = () => {
             {
                 facilitiesData?.map((item, index) => {
                     return (
-                        <div className={`${styles.facilityCard} ${(index !== facilitiesData.length - 1) && styles.borderRight}`}>
+                        <div key={index} className={`${styles.facilityCard} ${(index !== facilitiesData.length - 1) && styles.borderRight}`}>
                             <Image src={item.logo} alt={item.title} />
                             <div className={styles.infoDiv}>
                                 <div className={styles.header}>{item.title}</div>

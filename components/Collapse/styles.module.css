@@ -1,0 +1,31 @@
+.container {
+    @apply w-full h-fit flex flex-col gap-5;
+}
+
+.collapseSection {
+    @apply w-full h-fit flex flex-col gap-5 bg-transparent;
+}
+
+.headerSection {
+    @apply w-full h-[3.25rem] flex items-center justify-between border border-[#94A3B8] bg-white px-3 cursor-pointer;
+}
+
+.header {
+    @apply text-[#1E293B] text-xl font-medium z-20 select-none;
+}
+
+.collapsBody {
+    @apply z-[1] w-full text-[#64748B] text-base font-normal transition-all delay-150 overflow-hidden max-h-0 opacity-0 ease-linear;
+    transform: translateY(-10%);
+    transition: max-height 0.5s ease, opacity 0.5s ease, transform 0.5s ease;
+}
+
+.activeBody {
+    @apply translate-y-0 h-auto delay-150 ease-linear opacity-[0.6];
+    transition: ease-in-out 0.5s, opacity 0.7s ease;
+}
+
+.deactiveBody {
+    @apply h-0 translate-y-[-10%] opacity-0;
+    transition: ease-in-out 0.5s, opacity 0.3s ease;
+}

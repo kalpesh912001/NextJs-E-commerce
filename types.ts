@@ -12,3 +12,8 @@ export interface StatsDataTypes {
     title: string;
     data: string;
 }
+
+export interface CollapseData {
+    header: string;
+    body: any;
+}

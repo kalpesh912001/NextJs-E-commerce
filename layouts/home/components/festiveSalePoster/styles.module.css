@@ -1,0 +1,28 @@
+.container {
+    @apply px-[6.25rem] py-[6.25rem] bg-[#F0FDFA];
+}
+
+.imageContainer {
+    @apply rounded-[1.25rem] overflow-hidden bg-cover h-[34.5rem] relative;
+    background-image: url('../../../../public/assets/images/sale-banner.png');
+}
+
+.saleOffImage {
+    @apply absolute top-28 -right-8;
+}
+
+.infoContainer {
+    @apply absolute top-10 left-16 flex flex-col gap-10 max-w-[32.813rem];
+}
+
+.infoHeader {
+    @apply text-[#FFFFFF] text-[4rem] font-bold;
+}
+
+.infoDescription {
+    @apply text-[#FFFFFF] text-base font-normal;
+}
+
+.buyNowBtn {
+    @apply !bg-[#FFFFFF] !border-[#FFFFFF] !max-w-[12.5rem] !text-[#14B8A6]
+}

@@ -1,0 +1,7 @@
+.container {
+    @apply py-[6.25rem] flex flex-col gap-[3.75rem];
+}
+
+.header {
+    @apply text-[#1E293B] text-[2.5rem] font-semibold px-[6.25rem];
+}

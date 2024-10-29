@@ -5,3 +5,4 @@ export * from './Button';
 export * from './Sliders';
 export * from './ProductListing';
 export * from './ProductCard';
+export * from './Collapse';

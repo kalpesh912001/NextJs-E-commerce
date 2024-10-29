@@ -18,4 +18,6 @@ export * as truck from './truck.svg';
 export * as indian_rupee from './indian-rupee.svg';
 export * as headphones from './headphones.svg';
 export * as credit_card from './credit-card.svg';
+export * as plus_green from './plus-green.svg';
+export * as minus_green from './minus-green.svg';
 

@@ -1,3 +1,4 @@
+import { adidas, chanel, fila, forever_21, puma, sketchers } from "@/layouts/home/components/populerBrands/images"
 import { facebook, instagram, linkedIn, twitter } from "@/public/assets/icons"
 
 export const topBarFeturesKeys = {
@@ -27,4 +28,12 @@ export const socialNetworks = [
         icon: instagram,
         link: ''
     }
+]
+
+export const brandLogos = [
+    adidas, chanel, puma, sketchers, forever_21, fila,
+    adidas, chanel, puma, sketchers, forever_21, fila,
+    adidas, chanel, puma, sketchers, forever_21, fila,
+    adidas, chanel, puma, sketchers, forever_21, fila,
+    adidas, chanel, puma, sketchers, forever_21, fila,
 ]
