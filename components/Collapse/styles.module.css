@@ -7,7 +7,7 @@
 }
 
 .headerSection {
-    @apply w-full h-[3.25rem] flex items-center justify-between border border-[#94A3B8] bg-white px-3 cursor-pointer;
+    @apply w-full h-[3.25rem] flex items-center justify-between border-b border-[#94A3B8] bg-white px-3 cursor-pointer;
 }
 
 .header {

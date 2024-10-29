@@ -44,7 +44,12 @@ export const Topbar = () => {
                         return (
                             <div
                                 key={index}
-                                className={isActive ? styles.activeTopbarFeature : styles.topbarFeatureBox}>
+                                className={isActive ? styles.activeTopbarFeature : styles.topbarFeatureBox}
+                                onClick={() => {
+                                    if (item?.path) {
+                                        router.push(item?.path)
+                                    }
+                                }}>
                                 <Image src={isActive ? item?.activeIcon : item?.icon} alt='menu' width={16} />
                                 {
                                     item?.key === topBarFeturesKeys.shoppingCart &&

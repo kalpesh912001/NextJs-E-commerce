@@ -1,6 +1,6 @@
 export * as search from './search.svg';
 export * as shopping_cart from './shopping-cart.svg';
-export * as shopping_cart_white from './shopping-cart.svg';
+export * as shopping_cart_white from './shopping-cart-white.svg';
 export * as user_circle from './user-circle.svg';
 export * as arrow_head_down from './arrow-head-down.svg';
 export * as arrow_head_down_green from './arrow-head-down-green.svg';
@@ -21,5 +21,8 @@ export * as credit_card from './credit-card.svg';
 export * as plus_green from './plus-green.svg';
 export * as minus_green from './minus-green.svg';
 export * as rating_5_star from './rating-5.svg';
+export * as minus_gray from './minus-gray.svg';
+export * as plus_gray from './plus-gray.svg';
+export * as delete_green from './delete-green.svg';
 
 

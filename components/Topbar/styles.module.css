@@ -19,7 +19,7 @@
 }
 
 .activeTopbarFeature {
-    @apply bg-[#14B8A6] w-[2.375rem] h-[2.375rem] rounded relative cursor-pointer;
+    @apply bg-[#14B8A6] w-[2.375rem] h-[2.375rem] rounded relative flex items-center justify-center cursor-pointer;
 }
 
 .cartBadge {
