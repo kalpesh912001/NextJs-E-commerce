@@ -7,3 +7,4 @@ export * from './facilities';
 export * from './festiveSalePoster';
 export * from './populerBrands';
 export * from './frequentlyAskedQue';
+export * from './customersReview';

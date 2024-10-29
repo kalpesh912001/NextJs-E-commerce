@@ -6,3 +6,4 @@ export * from './Sliders';
 export * from './ProductListing';
 export * from './ProductCard';
 export * from './Collapse';
+export * from './TestimonialsCard';

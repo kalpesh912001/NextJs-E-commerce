@@ -1,0 +1,15 @@
+.container {
+    @apply min-w-full p-[1.456rem] bg-[#FFFFFF] flex flex-col gap-5 border-[1.8px] border-[#E2E8F0] rounded-[0.625rem];
+}
+
+.profileAndRating {
+    @apply flex items-start justify-between;
+}
+
+.customerName {
+    @apply text-[#1E293B] text-xl font-semibold;
+}
+
+.review {
+    @apply text-[#64748B] text-sm font-normal line-clamp-3;
+}

@@ -41,7 +41,9 @@ export const ProductCard = (props: Props) => {
                 <div className={styles.pricingSection}>
                     <span className={styles.price}>Rs.{productPrice}</span>
                     <span className={styles.actualPrice}>Rs.{productPrice + 200}</span>
-                    <span className={styles.descountPercentage}>({Math.round((((productPrice + 200) - productPrice) / productPrice) * 100)}% off)</span>
+                    <span className={styles.descountPercentage}>
+                        ({Math.round(((200 / (productPrice + 200)) * 100))}% off)
+                    </span>
                 </div>
                 <Button
                     label={'Add To Cart'}

@@ -13,3 +13,16 @@ export const fetchAllProducts = async (limit: number) => {
         throw error;
     }
 };
+
+
+export const fetchUsers = async () => {
+    try {
+        const response = await httpClient({
+            method: "GET",
+            url: `https://randomuser.me/api/?results=9&nat=us,gb,ca,in`
+        });
+        return response;
+    } catch (error: any) {
+        throw error;
+    }
+}
