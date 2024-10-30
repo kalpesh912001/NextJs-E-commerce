@@ -1,11 +1,10 @@
-import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
+const nextConfig = {
   reactStrictMode: true,
   images: {
     domains: ['randomuser.me', 'fakestoreapi.com'],
   },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
 

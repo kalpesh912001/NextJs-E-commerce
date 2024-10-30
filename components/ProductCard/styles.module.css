@@ -25,7 +25,7 @@
 }
 
 .titleDescDiv {
-    @apply flex flex-col gap-[5px] h-[6.313rem]
+    @apply flex flex-col gap-[5px] h-[6.313rem];
 }
 
 .title {
@@ -37,7 +37,7 @@
 }
 
 .pricingSection {
-    @apply flex items-center justify-start gap-2
+    @apply flex items-center justify-start gap-2;
 }
 
 .price {

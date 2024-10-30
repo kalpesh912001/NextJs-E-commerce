@@ -23,5 +23,5 @@
 }
 
 .sliderSection {
-    @apply h-fit
+    @apply h-fit;
 }

@@ -9,7 +9,7 @@
 }
 
 .wrapper {
-    @apply overflow-hidden w-full flex h-[7.375rem]
+    @apply overflow-hidden w-full flex h-[7.375rem];
 }
 
 .slider {

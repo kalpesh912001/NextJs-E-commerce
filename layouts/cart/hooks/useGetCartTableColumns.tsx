@@ -13,14 +13,20 @@ const useGetCartTableColumns = () => {
         try {
             const response = await fetchAllProducts(2);
             if (response.status === 200) {
+                const products = response?.data;
                 setCartPrducts(response?.data);
                 console.log(response?.data);
 
-                const initialQuantities = response?.data?.reduce((acc: { [key: number]: number }, item: any) => {
-                    acc[item.id] = 1;
-                    return acc;
-                }, {});
+                let initialQuantities: any = {};
+                let initialSubtotals: any = {};
+
+                products.forEach((item: any) => {
+                    initialQuantities[item.id] = 1;
+                    initialSubtotals[item.id] = item.price * 1;
+                });
+
                 setQuantity(initialQuantities);
+                setSubtotal(initialSubtotals);
             }
         } catch (error: any) {
             console.log(error);
