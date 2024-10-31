@@ -1,16 +1,21 @@
 import React from 'react'
 import styles from './styles.module.css';
 import Image from 'next/image';
-import { logo_white } from '@/public/assets/images';
+import { logo_white } from '../../public/assets/images';
 import useGetFooterDataMapping from './hooks/useGetFooterDataMapping';
+import { useRouter } from 'next/router';
+import { ROUTER_PATHS } from '../../constants/enums';
 
 export const Footer = () => {
     const { footerDataLinks } = useGetFooterDataMapping();
-
+    const router = useRouter();
     return (
         <div className={styles.container}>
             <div>
-                <Image src={logo_white} alt='logo' width={100} />
+                <Image src={logo_white} alt='logo' width={100}
+                    onClick={() => {
+                        router.push(ROUTER_PATHS.home)
+                    }} />
             </div>
             <div className={styles.footerColumnsContainer}>
                 {

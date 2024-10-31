@@ -6,6 +6,7 @@ import { useGetTopbarData } from './hooks/useGetTopbarData';
 import { useRouter } from 'next/router';
 import { TopbarManuLinks } from '../../types';
 import { topBarFeturesKeys } from '../../constants';
+import { ROUTER_PATHS } from '@/constants/enums';
 
 export const Topbar = () => {
     const router = useRouter();
@@ -18,7 +19,10 @@ export const Topbar = () => {
     return (
         <div className={styles.container}>
             <div>
-                <Image src={logo_green} alt='logo' width={100} />
+                <Image src={logo_green} alt='logo' width={100}
+                    onClick={() => {
+                        router.push(ROUTER_PATHS.home)
+                    }} />
             </div>
             <div className={styles.menuItems}>
                 {
