@@ -4,6 +4,8 @@ import NProgress from "nprogress";
 import "../styles/nprogress.css";
 import { useRouter } from "next/router";
 import React from "react";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 export default function App({ Component, pageProps }: AppProps) {
@@ -21,5 +23,10 @@ export default function App({ Component, pageProps }: AppProps) {
     });
   }, [router]);
 
-  return <Component {...pageProps} />;
+  return (
+    <>
+      <Component {...pageProps} />
+      <ToastContainer limit={4} />
+    </>
+  )
 }

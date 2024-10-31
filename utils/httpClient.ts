@@ -1,5 +1,5 @@
 import axios, { AxiosRequestConfig } from "axios";
-import { toast } from "react-toastify";
+import { toast } from 'react-toastify'
 
 const httpClient = async ({
     method,

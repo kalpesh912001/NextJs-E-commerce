@@ -11,7 +11,9 @@ const useGetFooterDataMapping = () => {
                 {
                     socialNetworks.map((item, index) => {
                         return (
-                            <Image key={index} src={item.icon} alt={item.name} width={20} />
+                            <div key={index}>
+                                <Image src={item.icon} alt={item.name} width={20} />
+                            </div>
                         )
                     })
                 }
@@ -47,7 +49,7 @@ const useGetFooterDataMapping = () => {
                 '+91 12345 67890',
                 'Lorem ipsum dolor sit amet consectetur.',
                 'Nulla tempus elit nec.',
-                < SocialNetworkSection />
+                < SocialNetworkSection key={'socialNetworkSection'} />
             ]
         },
         {
@@ -71,7 +73,7 @@ const useGetFooterDataMapping = () => {
         {
             header: 'Get the app',
             links: [
-                <GetAppButtons />
+                <GetAppButtons key={'getAppButtons'} />
             ]
         }
 

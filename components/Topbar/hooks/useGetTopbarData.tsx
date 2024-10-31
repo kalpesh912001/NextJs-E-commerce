@@ -7,7 +7,6 @@ import { useState } from "react";
 import Image from "next/image";
 
 export const useGetTopbarData = () => {
-    const router = useRouter();
     const [cartItemCount, setCartItemCount] = useState(2);
 
     const menuItems: TopbarManuLinks[] = [
